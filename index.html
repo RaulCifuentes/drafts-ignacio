@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1"/>
+    <title>Chile Regions with TopoJSON</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>-->
+    <link rel="stylesheet" type="text/css" href="bower_components/c3/c3.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+
+    <!--<script src="bower_components/jquery/dist/jquery.js"></script>-->
+    <!--<script src="js/bootstrap.js"></script>-->
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/topojson/topojson.js"></script>
+    <script src="bower_components/c3/c3.js"></script>
+    <script src="bower_components/d3-tip/d3-tip.js"></script>
+
+
+    <style>
+
+        .region:hover {
+            stroke: #fff;
+            stroke-width: .7px;
+        }
+
+        #map_container {
+            margin: 10px 10%;
+            /*padding: 20px;*/
+            border: 2px solid #d0d0d0;
+            /*border-radius: 5px;*/
+            height: 700px;
+            width: 300px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        div.tooltip {
+            color: #222;
+            background: #fff;
+            padding: .5em;
+            text-shadow: #f5f5f5 0 1px 0;
+            border-radius: 2px;
+            box-shadow: 0px 0px 2px 0px #a6a6a6;
+            opacity: 0.9;
+            position: absolute;
+        }
+
+        path {
+            /*fill: #ccc;*/
+            stroke: #321;
+            stroke-width: .5px;
+        }
+
+        path:hover {
+            fill: red;
+        }
+
+        .chartLabel {
+            font: 16px sans-serif;
+            fill: #666;
+        }
+
+        .arcLabel {
+            font: 10px sans-serif;
+            fill: #fff;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+<div id="map_container" class="col-md-6 column">
+</div>
+<!--<div id="c3-donut-chart" class="col-md-6 column">-->
+<!--</div>-->
+<!--<div id="d3-donut-chart" class="col-md-4 column">-->
+<!--</div>-->
+
+
+<script src="js/d3-map.js"></script>
+<!--<script src="js/c3-donut.js"></script>-->
+<!--<script src="js/d3-donut.js"></script>-->
+
+
+</body>
+
+</html>

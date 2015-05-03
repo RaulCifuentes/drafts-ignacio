@@ -1,0 +1,167 @@
+{
+  "nodes": [
+    {
+      "node": 0,
+      "name": "Biomasa"
+    },
+    {
+      "node": 1,
+      "name": "Crudo"
+    },
+    {
+      "node": 2,
+      "name": "Carbon"
+    },
+    {
+      "node": 3,
+      "name": "Gas Natural"
+    },
+    {
+      "node": 4,
+      "name": "HidroElectricidad"
+    },
+    {
+      "node": 5,
+      "name": "Eolica"
+    },
+    {
+      "node": 6,
+      "name": "Solar"
+    },
+    {
+      "node": 7,
+      "name": "Biogas"
+    },
+    {
+      "node": 8,
+      "name": "Fuente Primaria"
+    },
+    {
+      "node": 9,
+      "name": "Electricidad"
+    },
+    {
+      "node": 10,
+      "name": "Che Nacho"
+    },
+    {
+      "node": 11,
+      "name": "Consumo Total"
+    },
+    {
+      "node": 12,
+      "name": "Transporte"
+    },
+    {
+      "node": 13,
+      "name": "Industria Mineria"
+    },
+    {
+      "node": 14,
+      "name": "CPR"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 8,
+      "value": 3
+    },
+    {
+      "source": 1,
+      "target": 8,
+      "value": 4
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 8,
+      "value": 1
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "value": 1
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "value": 0.5
+    },
+    {
+      "source": 6,
+      "target": 8,
+      "value": 2
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "value": 0.5
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 8,
+      "target": 10,
+      "value": 4.5
+    },
+    {
+      "source": 8,
+      "target": 11,
+      "value": 1
+    },
+    {
+      "source": 8,
+      "target": 11,
+      "value": 0.5
+    },
+    {
+      "source": 9,
+      "target": 11,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 13,
+      "value": 2
+    },
+    {
+      "source": 11,
+      "target": 14,
+      "value": 2
+    },
+    {
+      "source": 11,
+      "target": 14,
+      "value": 1
+    }
+
+  ]
+}

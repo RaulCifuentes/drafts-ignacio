@@ -1,0 +1,21 @@
+{
+  "name": "ignacio",
+  "version": "0.0.0",
+  "authors": [
+    "RaulCifuentes <andres.cifuentes@gmail.com>"
+  ],
+  "description": "Charts to Ignacio",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3-tip": "~0.6.6",
+    "topojson": "~1.6.19"
+  }
+}
